@@ -1,0 +1,179 @@
+/* Basic Style */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none !important;
+    
+}
+body{
+    background-color: #f1f3f4;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar{
+    position:sticky;
+    height: 15vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    z-index: 100;
+   
+}
+.left_side{
+    display: inline-flex;
+}
+.logo img{
+    width: 140px;
+    height: 140px;
+}
+.search_box{
+    position: relative;
+    margin: 55px 30px;
+}
+.fa-search{
+    color: #e67e22;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-right: 10px;
+    left: 10px;
+    border-right: 2px solid #e67e22  ;
+
+}
+input{
+    outline: none;
+    border: 1px solid #fff;
+    padding: 5px 80px;
+    border-radius: 30px;
+    background-color: #f7f7f7;
+}
+.nav_items{
+    display:inline-flex;
+}
+.nav_items li{
+    margin-left: 10px;
+    background-color: #e67e22;
+    color: #fff;
+    border-radius: 30px;
+    padding: 5px 20px;
+}
+.nav_items li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+
+}
+/* -----------Menu---------------- */
+.header{
+    
+    height: 120vh;
+    width: 100vw;
+}
+.flex{
+    display: inline-flex;
+}
+.side_menu{
+    
+    margin-top: 62px;
+    height:98vh;
+    width: 15vw;
+    font-size: 18px;
+    float: left;
+    z-index: 2;
+    background:#ddd ;
+    
+}
+.head_img img{
+    height: 180px;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+
+.side_menu ul li{
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.p{
+    position: relative;
+}
+
+.arrow{
+    position: absolute;
+    left: 70%;
+    color: #e67e22;
+    /* margin-left: 20px; */
+}
+
+
+.vid video{
+    position: absolute;
+    top: 23%;
+    height: 100vh;  
+    padding: 0 10px;
+    width: 85vw;
+    
+    
+}
+
+/* -----------Category----------------- */
+.category {
+    height: 60vh;
+    width: 100%;
+    background-color: #fff;
+}
+.category a{
+    color: black;
+}
+
+.fa-arrow-left,
+.fa-arrow-right{
+    color: #e67e22;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 20px;
+    height: 100px;
+    width: 140px;
+    background-color: #f1f1f1;
+    color: #000;
+    border-radius: 10px;
+}
+.carousel-inner .box{
+    margin:auto;
+}
+/* Banner Section */
+.banner{
+    height: 80vh;
+}
+.banner_wrap img{
+    display: block;
+    background-color: #f1f1f1;
+    height: 95%;
+    width: 95%;
+    margin: 0 auto;
+  
+}
+
+
+/* Product */
+
+
